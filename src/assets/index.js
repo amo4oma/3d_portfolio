@@ -45,10 +45,12 @@ import jobstreet from "./company/jobstreet.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import mobileBg from "./mobile-bg.png";
  
 
 export {
   logo,
+  mobileBg,
   jobstreet,
   treeqalmanar,
   gawbah,

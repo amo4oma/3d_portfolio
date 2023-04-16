@@ -1,6 +1,8 @@
 import {motion } from 'framer-motion'
 import { styles } from '../styles'
 import { ComputersCanvas } from './canvas'
+import { isMobile } from 'react-device-detect'
+
  
 const Hero = () => {
   return (
@@ -19,8 +21,9 @@ const Hero = () => {
        </div>
 
        </div>
-
-       <ComputersCanvas />
+      {isMobile ? null :    <ComputersCanvas /> }
+    
+     
 
        <div className='w-full flex justify-center items-center absolute xs:bottom-10 bottom-32'>
         <a href='#about'>
@@ -39,6 +42,7 @@ const Hero = () => {
               }
               className='w-3 h-3 rounded-full bg-secondary mb-2'
             />
+            
           </div>
         </a>
        </div>

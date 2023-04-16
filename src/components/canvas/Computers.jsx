@@ -9,12 +9,12 @@ const Computers = ({ isMobile }) => {
   const computer = useGLTF("/desktop_pc/scene.glb");
   return (
     <mesh>
-      <hemisphereLight intensity={0.35} groundColor="black" 
+      <hemisphereLight intensity={0.35} groundColor="purple" 
              angle={0.12}
         penumbra={1}
         castShadow
       />
-      <pointLight intensity={1} />
+      <pointLight intensity={isMobile? 0.2 : 1} />
       <primitive object={computer.scene}
         position={isMobile ? [0,-3,-2.2] : [0,-3.25,-1.5]}
         scale={isMobile ? 0.7 : 0.75}
