@@ -35,7 +35,10 @@ import {
     setel,
     pressmetal,
     threejs,
-    ecompile
+    ecompile,
+    stamford,
+    greenpeace,
+    haze
   } from "../assets";
   
   export const navLinks = [
@@ -212,6 +215,57 @@ import {
   ];
   
   const projects = [
+    {
+      name: "Stamford Clinics",
+      description:
+        "Fully responsive, High performance website for a leading clinics based in Malaysia",
+      tags: [
+        {
+          name: "Vue3 js",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "TailwindCss",
+          color: "green-text-gradient",
+        },
+      ],
+      image: stamford,
+      source_code_link: "https://creativeunicorn.com/staging/stamford/",
+    },
+    {
+      name: "make Malaysia breath again - Greenpeace",
+      description:
+        "Donation page for greenpeace Organization",
+      tags: [
+        {
+          name: "Vue js",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "TailwindCss",
+          color: "green-text-gradient",
+        },
+      ],
+      image: haze,
+      source_code_link: "https://creativeunicorn.com/staging/GP/haze/",
+    },
+    {
+      name: "Big changes start small.",
+      description:
+        "Donation page for greenpeace Organization",
+      tags: [
+        {
+          name: "Vue js",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "TailwindCss",
+          color: "green-text-gradient",
+        },
+      ],
+      image: greenpeace,
+      source_code_link: "https://www.creativeunicorn.com/staging/GP/big-changes/",
+    },
     {
       name: "Treeq Al-manar",
       description:

@@ -41,14 +41,22 @@ import gawbah from "./company/gawbah.png";
 import EM from "./company/EM.jpg";
 import treeqalmanar from "./company/treeqalmanar.png";
 import jobstreet from "./company/jobstreet.png";
+import stamford from "./company/stamford.png";
+import greenpeace from "./company/greenpeace.png";
+import haze from "./company/haze.png";
+ 
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import mobileBg from "./mobile-bg.png";
  
+ 
 
 export {
+  haze,
+  greenpeace,
+  stamford,
   logo,
   mobileBg,
   jobstreet,
@@ -94,4 +102,5 @@ export {
   smartmind,
   setel,
   ecompile,
+ 
 };

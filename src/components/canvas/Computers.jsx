@@ -12,7 +12,7 @@ const Computers = ({ isMobile }) => {
       <hemisphereLight intensity={0.35} groundColor="purple" 
              angle={0.12}
         penumbra={1}
-        castShadow
+        castShadow= {false}
       />
       <pointLight intensity={isMobile? 0.2 : 1} />
       <primitive object={computer.scene}
@@ -44,7 +44,7 @@ const ComputersCanvas = () =>{
     },[])
   return(
     <Canvas
-    frameLoop = "demand"
+ 
     shadows
     camera={ {position: [20,3,5], fov:25 }}
     gl={{ preserveDrawingBuffer : true}}
