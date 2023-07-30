@@ -38,7 +38,8 @@ import {
     ecompile,
     stamford,
     greenpeace,
-    haze
+    haze,
+    openSoft
   } from "../assets";
   
   export const navLinks = [
@@ -215,6 +216,23 @@ import {
   ];
   
   const projects = [
+    {
+      name: "OpenSoft Landing Page",
+      description:
+        "Fully responsive, High performance website for a software company based in Yemen",
+      tags: [
+        {
+          name: "Vue3 js",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "TailwindCss",
+          color: "green-text-gradient",
+        },
+      ],
+      image: openSoft,
+      source_code_link: "https://staging.opensoftye.com/",
+    },
     {
       name: "Stamford Clinics",
       description:

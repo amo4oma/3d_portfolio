@@ -44,12 +44,13 @@ import jobstreet from "./company/jobstreet.png";
 import stamford from "./company/stamford.png";
 import greenpeace from "./company/greenpeace.png";
 import haze from "./company/haze.png";
- 
+import openSoft from "./company/openSoft.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import mobileBg from "./mobile-bg.png";
+
  
  
 
@@ -102,5 +103,6 @@ export {
   smartmind,
   setel,
   ecompile,
+  openSoft
  
 };
