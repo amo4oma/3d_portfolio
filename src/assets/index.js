@@ -45,6 +45,7 @@ import stamford from "./company/stamford.png";
 import greenpeace from "./company/greenpeace.png";
 import haze from "./company/haze.png";
 import openSoft from "./company/openSoft.png";
+import motelz from "./company/motelz.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -56,6 +57,7 @@ import mobileBg from "./mobile-bg.png";
 
 export {
   haze,
+  motelz,
   greenpeace,
   stamford,
   logo,

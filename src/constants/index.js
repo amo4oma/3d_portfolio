@@ -39,7 +39,8 @@ import {
     stamford,
     greenpeace,
     haze,
-    openSoft
+    openSoft,
+    motelz
   } from "../assets";
   
   export const navLinks = [
@@ -178,7 +179,20 @@ import {
       company_name: "Creative Unicorn",
       icon: starbucks,
       iconBg: "#383E56",
-      date: "March 2020 - Present",
+      date: "March 2020 - 2024",
+      points: [
+        "Developing and maintaining web applications using React.js and other related technologies.",
+        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+        "Implementing responsive design and ensuring cross-browser compatibility.",
+        "Participating in code reviews and providing constructive feedback to other developers.",
+      ],
+    },
+    {
+      title: "Web App Developer",
+      company_name: "Motelz",
+      icon: motelz,
+      iconBg: "#383E56",
+      date: "March 2024 - 2025",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -216,6 +230,23 @@ import {
   ];
   
   const projects = [
+    {
+      name: "Moteelz.com",
+      description:
+        "Booking Platform based in Riyadh KSA, that has more than 1 million units, wallet and more",
+      tags: [
+        {
+          name: "Nuxt, Vue",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "TailwindCss",
+          color: "green-text-gradient",
+        },
+      ],
+      image: motelz,
+      source_code_link: "https://moteelz.com/",
+    },
     {
       name: "OpenSoft Landing Page",
       description:
